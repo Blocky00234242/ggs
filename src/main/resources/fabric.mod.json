@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "item-collector",
+  "version": "1.0.0",
+  "name": "Item Collector",
+  "description": "Automatically walks the player toward nearby valuable items.",
+  "authors": ["com.example"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.ItemCollectorMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
